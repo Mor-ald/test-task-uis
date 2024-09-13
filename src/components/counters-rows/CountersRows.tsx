@@ -12,7 +12,7 @@ export default function CountersRows({ data, onDeleteRow }: ICountersRows) {
       case 'ColdWaterAreaMeter': {
         return (
           <div className="type-col-td">
-            <img src="/src/assets/Icon-Counters-Gvs.svg" />
+            <img src="/Icon-Counters-Gvs.svg" />
             <span>ХВС</span>
           </div>
         );
@@ -21,7 +21,7 @@ export default function CountersRows({ data, onDeleteRow }: ICountersRows) {
       case 'HotWaterAreaMeter': {
         return (
           <div className="type-col-td">
-            <img src="/src/assets/Icon-Counters-Hvs.svg" />
+            <img src="/Icon-Counters-Hvs.svg" />
             <span>ГВС</span>
           </div>
         );
