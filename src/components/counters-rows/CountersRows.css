@@ -1,0 +1,79 @@
+.number-col-td {
+  width: 48px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  color: #5e6674;
+}
+
+.type-col-td {
+  width: 96px;
+  padding: 8px 12px;
+  display: flex;
+}
+
+.type-col-td img {
+  margin-right: 8px;
+}
+
+.date-col-td {
+  width: 160px;
+}
+
+.auto-col-td {
+  width: 128px;
+}
+
+.values-col-td {
+  width: 146px;
+}
+
+.address-col-td {
+  width: calc(
+    100vw - 32px - 48px - 120px - 160px - 128px - 146px - 321px - 64px
+  );
+}
+
+.description-col-td {
+  width: 312px;
+}
+
+.type-col-td,
+.date-col-td,
+.auto-col-td,
+.values-col-td,
+.address-col-td {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  color: #1f2939;
+}
+
+.description-col-td {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  color: #5e6674;
+}
+
+.button-col-td {
+  width: 64px;
+}
+
+.button-col-td button {
+  visibility: hidden;
+  padding: 10px 12px;
+  border: 0;
+  border-radius: 8px;
+  background: #fee3e3;
+  cursor: pointer;
+}
+
+.button-col-td button:hover {
+  background: #fed7d7;
+}
+
+.button-col-td button:hover svg path {
+  fill: #9b2c2c;
+}
